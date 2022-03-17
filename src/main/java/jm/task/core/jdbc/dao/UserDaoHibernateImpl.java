@@ -9,7 +9,6 @@ public class UserDaoHibernateImpl implements UserDao {
 
     }
 
-
     @Override
     public void createUsersTable() {
 
@@ -37,6 +36,11 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void cleanUsersTable() {
+
+    }
+
+    @Override
+    public void closeConnection() {
 
     }
 }

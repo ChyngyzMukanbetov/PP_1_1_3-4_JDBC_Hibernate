@@ -27,12 +27,4 @@ public class Util {
        // }
         return connection;
     }
-
-
-    Configuration configuration = new Configuration();
-
-    public Configuration getConfiguration() {
-        configuration.configure();
-        return configuration;
-    }
 }
